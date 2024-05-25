@@ -1,20 +1,20 @@
 import express from "express";
-import request  from "request";
-//import cron  from 'node-cron';
+import request from "request";
+//import cron from 'node-cron';
 
-import qs  from "qs";
+import qs from "qs";
 
 const app = express();
 const port = 3000;
-const message=`حط رسالتك اللي تبي ترسلها`;
-const post=`تجربه`;
+const message=`......`;
+const post=`........`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
-const sendMessageBool=false;
-const sendPostBool=true;
+const sendMessageBool=true;
+const sendPostBool=false;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
-const count = 120;
+const count = 6;
 const email= `123456789xdf1@gmail.com`;
 const password=`ABCD.xdf`;
 app.get('/', (req, res) => {
@@ -23,15 +23,15 @@ app.get('/', (req, res) => {
 var minutes = 1/count,the_interval = minutes * 60 * 1000;
 
 function sendPost() {
-     let postData={  post: post, hasFire: !1, hasAnime: !1, hasImage: "", anime: [], youtube: "", userAddress: '2.2.2.2' } ;
+     let postData={ post: post, hasFire: !1, hasAnime: !1, hasImage: "", anime: [], youtube: "", userAddress: '2.2.2.2' } ;
       let body ={
       email:email, password: password, useragent: "IBRAHIMSEVEN",item:
       btoa(unescape(encodeURIComponent(JSON.stringify(postData)))), android: true};
      
     request({
-        url:"https://gehrman.onrender.com/",
+        url:"https://app.sanime.net/function/h10.php?page=sendPost",
         method: "POST",
-        body:  qs.stringify(body),
+        body: qs.stringify(body),
     headers: {"Content-Type": "application/x-www-form-urlencoded",
     'User-Agent': 'IBRAHIMSEVEN',//SevenZero',
   },
@@ -51,7 +51,7 @@ function sendMessage() {
         url:"https://app.sanime.net/secure/chat/send.php",
         method: "POST",
         
-        body:  qs.stringify(body),
+        body: qs.stringify(body),
     headers: {"Content-Type": "application/x-www-form-urlencoded",
     'User-Agent': 'IBRAHIMSEVEN',//SevenZero',
   },
@@ -83,7 +83,7 @@ setInterval(function() {
    console.log('Rstarting.........');
     try {
         request({
-        url: "https://sanime-band.onrender.com/",
+        url: "https://gehrman.onrender.com/",
         method: "GET",
        
         }, function (error, response, body){
