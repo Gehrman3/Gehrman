@@ -6,8 +6,8 @@ import qs from "qs";
 
 const app = express();
 const port = 3000;
-const message=`🚫🚫error🚫🚫`;
-const post=`🚫🚫error🚫🚫`;
+const message=` اشوف المشرف كيف يحذف الحين🚫🚫error🚫🚫`;
+const post=` اشوف المشرف كيف يحذف الحين🚫🚫error🚫🚫`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
 const sendMessageBool=true;
