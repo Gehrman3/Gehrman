@@ -6,7 +6,7 @@ import qs from "qs";
 
 const app = express();
 const port = 3000;
-const message=`error`;
+const message=`🚫🚫error🚫🚫`;
 const post=`هههههههههه`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
