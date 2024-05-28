@@ -7,7 +7,7 @@ import qs from "qs";
 const app = express();
 const port = 3000;
 const message=`TTTTr`;
-const post=`error..........،`;
+const post=`GM Turki`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
 const sendMessageBool=true;
