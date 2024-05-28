@@ -15,12 +15,12 @@ const sendPostBool=true;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
 const count = 1/60;
-const email= `test@mail.com`;
-const password=`121212121`;
+const email= `____________`;
+const password=`____________`;
 app.get('/', (req, res) => {
   res.send('Welcome to my server!');
 });
-var minutes = 60,the_interval = minutes * 60 * 1000;
+var minutes = 1/count,the_interval = minutes * 60 * 1000;
 
 function sendPost() {
      let postData={ post: post, hasFire: !1, hasAnime: !1, hasImage: "", anime: [], youtube: "", userAddress: '2.2.2.2' } ;
