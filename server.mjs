@@ -6,17 +6,17 @@ import qs from "qs";
 
 const app = express();
 const port = 3000;
-const message=`TTTTr`;
-const post=`GM Turki`;
+const message=`XXX`;
+const post=`XXX`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
-const sendMessageBool=false;
+const sendMessageBool=true;
 const sendPostBool=true;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
-const count = 120;
-const email= `123456789xdf3@gmail.com`;
-const password=`Gehrman3mk`;
+const count = 1/60;
+const email= ` `;
+const password=` `;
 app.get('/', (req, res) => {
   res.send('Welcome to my server!');
 });
