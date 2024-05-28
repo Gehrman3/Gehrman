@@ -10,11 +10,11 @@ const message=`………………………………………………………�
 const post=` 🚫🚫error🚫🚫`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
-const sendMessageBool=false;
-const sendPostBool=true;
+const sendMessageBool=true;
+const sendPostBool=false;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
-const count = 120;
+const count = 30;
 const email= `123456789xdf3@gmail.com`;
 const password=`Gehrman3mk`;
 app.get('/', (req, res) => {
