@@ -15,8 +15,8 @@ const sendPostBool=true;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
 const count = 1/60;
-const email= `مزيدوملفامتلند`;
-const password=`تدنختغارنيقتتهل`;
+const email= `             `;
+const password=`             `;
 app.get('/', (req, res) => {
   res.send('Welcome to my server!');
 });
