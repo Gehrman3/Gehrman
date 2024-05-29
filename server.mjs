@@ -7,7 +7,7 @@ import qs from "qs";
 const app = express();
 const port = 3000;
 const message=`XXX`;
-const post=`ወደ ንግግር ቀይር። ለስራ፣ ለቪዲዮ አርትዖት፣ ለንግድ ስራ፣ ለማስታወቂያ፣ ለማህበራዊ ትስስር፣ ለመዝናኛ እና ለሌሎችም`;
+const post=`3,000`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
 const sendMessageBool=false;
