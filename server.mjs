@@ -6,12 +6,12 @@ import qs from "qs";
 
 const app = express();
 const port = 3000;
-const message=`XXX`;
-const post=`3,000 ✘`;
+const message=``;
+const post=``;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
 const sendMessageBool=false;
-const sendPostBool=false;
+const sendPostBool=true;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
 const count = 1/60;
