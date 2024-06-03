@@ -7,7 +7,7 @@ import qs from "qs";
 const app = express();
 const port = 3000;
 const message=``;
-const post=`3,000 .`;
+const post=`error.`;
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
 const sendMessageBool=false;
@@ -15,8 +15,8 @@ const sendPostBool=true;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
 const count = 300;
-const email= `123456789xdf3@gmail.com`;
-const password=`Gehrman3mk`;
+const email= `123456789xdf4@gmail.com`;
+const password=`123456789xdf4@gmail.com`;
 app.get('/', (req, res) => {
   res.send('Welcome to my server!');
 });
