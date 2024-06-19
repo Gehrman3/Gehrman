@@ -8,10 +8,12 @@ const app = express();
 const port = 3000;
 const message=`error.`;
 const post=`error.`;
+const OnePieceComment='error';
 // اذا كنت تبي تسوي سبام حط true و اذا لا حط false 👇
 // الاولى للدردشة والثانيه للمجتمع
 const sendMessageBool=true;
 const sendPostBool=true;
+const sendCommentBool=true;
 // عدد المرات في الدقيقه الواحده👇
 // اكثر شيء 60 اذا زدت عليها السيرفر بعلق
 const count = 300;
@@ -23,7 +25,7 @@ app.get('/', (req, res) => {
 var minutes = 1/count,the_interval = minutes * 60 * 1000;
 
 function sendPost() {
-     let postData={ post: post, hasFire: !1, hasAnime: !1, hasImage: "", anime: [], youtube: "", userAddress: '2.2.2.2' } ;
+     let postData={ post: post, hasFire: !1, hasAnime: !1, hasImage: "", anime: [One Piece], youtube: "", userAddress: '2.2.2.2' } ;
       let body ={
       email:email, password: password, useragent: "IBRAHIMSEVEN",item:
       btoa(unescape(encodeURIComponent(JSON.stringify(postData)))), android: true};
